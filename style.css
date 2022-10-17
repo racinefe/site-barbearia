@@ -1,38 +1,39 @@
-body{
+body {
     
 }
-#banner{
+#banner {
     width: 100%;
     border-radius: 30px;
 
 }
-h1{
+.titulo-centralizado {
     text-align: center;
 }
 p {
     text-align: center;
 }
-#missao{
+#missao {
     font-size: 20px
 }
-em strong{
+em strong {
     color: #ff0000;
 }
 .itens {
     font-style: italic;
 }
-.principal{
+.principal {
     border-radius: 30px;
     background-color: #cccccc;
     padding: 30px;
+}
+.titulo-principal {
+padding-left: 20px;
 }
 .beneficios {
     background: #ffffff;
     padding: 20px;
 }
-h2{
-    text-align: center;
-}
+
 ul {
     display: inline-block;
     vertical-align: top;
