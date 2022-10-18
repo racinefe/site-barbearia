@@ -3,7 +3,7 @@ body {
 }
 #banner {
     width: 100%;
-    border-radius: 30px;
+
 
 }
 .titulo-centralizado {
@@ -22,8 +22,7 @@ em strong {
     font-style: italic;
 }
 .principal {
-    border-radius: 30px;
-    background-color: #cccccc;
+    background-color: #9c815da8;
     padding: 30px;
 }
 .titulo-principal {
