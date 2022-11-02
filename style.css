@@ -35,14 +35,14 @@ nav a:hover {
 }
 
 .produtos {
-    width: 940px;
+    width: 260em;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 30px 0;
 }
 .produtos li {
     display: inline-block;
     text-align: center;
-    width: 30%;
+    width: 19em;
     vertical-align: top;
     background: #887665a8;
     margin: 0 1.5%;
@@ -85,11 +85,10 @@ footer{
     margin: 20px;
 }
 main{
-    width: 940px;
-    margin: 0 auto;
+   
 }
 form{
-    margin: 40px 0;
+    margin: 30px 60px 0;
 }
 form label, form p{
     display: block;
@@ -123,7 +122,7 @@ form label, form p{
 
 }
 table{
-    margin: 20px 0 40px;
+    margin:  60px 70px 60px;
 }
 thead{
     background: #555555;
@@ -146,6 +145,18 @@ td,th{
     margin: 0 0 1em;
     clear: left;
 }
+
+.titulo-principal:before{
+    content: " 🪒 ";
+}
+
+.principal{
+    padding: 3em 0;
+    background: #fdfdfd92;
+    width: 940px;
+    margin: 0 auto;
+    
+}
 .principal p {
 
     margin: 0 0 1em;
@@ -163,13 +174,23 @@ td,th{
 }
 .mapa{
     padding: 3em 0;
+    background: linear-gradient(#fdfdfd92, #887665a8);
+   
+   
+}
+.mapa-conteudo{
+    width: 940px;
+    margin: 0 auto;
 }
 .mapa p {
     margin: 0 0 2em;
     text-align: center;
 }
 .beneficios{
-    width: 60%;
+    padding: 3em 0;
+    background:  linear-gradient( #887665a8, rgba(0, 0, 0, 0.823)); 
+    
+    
 }
 .conteudo-beneficios{
     width: 640px;
@@ -180,6 +201,9 @@ td,th{
 }
 .itens:first-child{
     font-weight: bold;
+}
+.itens:before{
+    content: "✵";
 }
 .lista-itens{
     width: 40%;
